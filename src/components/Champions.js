@@ -19,7 +19,7 @@ function Champions(){
         <div className="champions-container">
             <div className="fighter-list-container">
                 {/* Create Champion Link at the top */}
-                <Link to="/new_form" className="create-champion-link">
+                <Link to="/champions/new" className="create-champion-link">
                     ➕ Create New Champion for New Division
                 </Link>
 

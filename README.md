@@ -1,4 +1,4 @@
-# Phase 2 Project
+# Phase 2 Project (Name it with a better specific name instead of just Phase 2 Project !!!!!!!!!)
 
 1. This is a single page application called: UFC Current Champions Information Finder
 (for Phase 2 Project from Sitong Ren)
@@ -18,6 +18,8 @@
    Anytime an User update the champion information, the updated information will persist on json server.
 
 4. There will be no need for installation since this is a web-application.
+   
+   **** note for how to run this app if anyone need to use this code!!!!!  *****
 
 5. Contributer:
     * Sitong Ren    

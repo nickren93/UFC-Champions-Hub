@@ -18,7 +18,8 @@ function FightCard({ fighter, id, name, img, weightClass, setSelectedFighter }) 
             {/*<button className="view-profile" onClick={handleUpdateFighter}>
                 Update Champion
             </button>*/}
-            <Link to={`/update_form/${id}`} className="view-profile">Update Champion</Link>
+            {/*<Link to={`/update_form/${id}`} className="view-profile">Update Champion</Link>*/}
+            <Link to={`/champions/${id}/edit`} className="view-profile">Update Champion</Link>
         </div>
     )
 }

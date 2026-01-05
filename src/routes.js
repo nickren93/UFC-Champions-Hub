@@ -30,11 +30,11 @@ const routes = [
                 */
             },
             {
-                path: '/update_form/:id',
+                path: '/champions/:id/edit',  //  /champions/:id/edit    '/update_form/:id'
                 element: <UpdateFighterForm />,
             },
             {
-                path: '/new_form',
+                path: '/champions/new', //  /champions/new   '/new_form'
                 element: <NewChampionForm />
             },
             {
@@ -46,3 +46,8 @@ const routes = [
 ]
 
 export default routes;
+
+/*
+/champions/:bob   {bob: xxxxx}
+/champions/new
+*/

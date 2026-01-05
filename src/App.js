@@ -9,14 +9,15 @@ function App() {
   const [fighters, setFighters] = useState([]);
   
   useEffect(() => {
-    fetch('http://localhost:4000/UFC_Champions')
+    fetch('http://localhost:4000/champions')
      .then(resp => resp.json())
      .then(data => setFighters(data))
      .catch(error => console.error('Error:', error));
   }, []);
 
   function handleNewSubmit(newChampion){
-    fetch(`http://localhost:4000/UFC_Champions`, {
+    //const changedFighter = {...newChampion, name: "Nancy"}
+    fetch(`http://localhost:4000/champions`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -32,7 +33,7 @@ function App() {
   }
 
   function handleUpdateSubmit(id, championToUpdate){
-    fetch(`http://localhost:4000/UFC_Champions/${id}`, {
+    fetch(`http://localhost:4000/champions/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
