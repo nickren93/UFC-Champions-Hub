@@ -1,7 +1,6 @@
-# Phase 2 Project (Name it with a better specific name instead of just Phase 2 Project !!!!!!!!!)
+# UFC-Champions-Finder
 
-1. This is a single page application called: UFC Current Champions Information Finder
-(for Phase 2 Project from Sitong Ren)
+1. This is a single page application called: UFC Current Champions Information Finder where user can see the list of all the current ufc champions for each weight division for both men and women. User can click on each champion card to see more details info for that champion. User can also update each division's champion if the info is oudated.
 
 2. The core features/functions of this MVP are:
     * Help user & UFC fans obtain information about all the current UFC champions. User can view all the current champions for each division in the Champion page. 
@@ -18,9 +17,6 @@
    Anytime an User update the champion information, the updated information will persist on json server.
 
 4. There will be no need for installation since this is a web-application.
-   
-   **** note for how to run this app if anyone need to use this code!!!!!  *****
 
 5. Contributer:
     * Sitong Ren    
-    * FlatIron Bootcamp Courses
