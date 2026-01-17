@@ -29,12 +29,13 @@ function Home(){
                     on the "Champions" navigation link on top   to view the list of current champions.
                 </p>
 
-                <form onSubmit={onHandleSubmit}>
+                
+                {/* <form onSubmit={onHandleSubmit}>
                     <input value={userInput} placeHolder={"Please enter a word"} onChange={(e)=>{setUserInput(e.target.value)}}/>
                     <button type={"submit"}> Click Me! </button>
                 </form>
 
-                <p>{number}</p>
+                <p>{number}</p> */}
 
                 <h3>Upcoming UFC Title Fight Event - UFC 314 - April 12th </h3>
                 <div className="video-container">
